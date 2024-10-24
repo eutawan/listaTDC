@@ -30,5 +30,6 @@ public class questionTwo {
 
         afd.verifyString("101");
         afd.verifyString("100");
+        afd.verifyString("11");
     }
 }

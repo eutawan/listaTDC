@@ -17,7 +17,7 @@ public class Deterministic extends FinityAutomate{
                 .put(element, nextState);
     }
 
-    // Esse método foi criado para podermos contar quantos zeros temos numa string, logo é uma prática que
+    // Esse metodo foi criado para podermos contar quantos zeros temos numa string, logo é uma prática que
     // não condiz com a máquina de estados finitos, já que seu poder de memória é muito limitado, Quest 10
     public void verifyString2 (String string) {
         State currentState = initState;
@@ -32,8 +32,8 @@ public class Deterministic extends FinityAutomate{
             passStates.add(currentState.name);
         }
 
-        int stateCountZero = Collections.frequency(passStates, "Second");
-        int stateCountOne = Collections.frequency(passStates, "Third");
+        int stateCountZero = Collections.frequency(passStates, "segundo");
+        int stateCountOne = Collections.frequency(passStates, "terceiro");
 
         if(stateCountZero > stateCountOne) {
             System.out.println("Accept");

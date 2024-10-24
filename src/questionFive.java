@@ -26,9 +26,10 @@ public class questionFive {
         afd.defineTransaction(q1, '0', q1);
         afd.defineTransaction(q1, '1', q1);
 
+        afd.verifyString("1000");
+        afd.verifyString("000");
         afd.verifyString("1");
         afd.verifyString("");
-        afd.verifyString("000");
 
     }
 }

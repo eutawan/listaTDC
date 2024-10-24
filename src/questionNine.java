@@ -27,8 +27,10 @@ public class questionNine {
         afd.defineTransaction(q1, '1', q0);
 
         afd.verifyString("1000");
+        afd.verifyString("00");
+        afd.verifyString("1001");
+        afd.verifyString("101");
         afd.verifyString("11");
-        afd.verifyString("010");
 
     }
 }

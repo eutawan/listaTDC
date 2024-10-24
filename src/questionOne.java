@@ -25,6 +25,7 @@ public class questionOne {
         afd.defineTransaction(q1, '1', q1);
 
         afd.verifyString("000");
+        afd.verifyString("1");
 
 
     }

@@ -31,6 +31,7 @@ public class questionThree {
 
         afd.verifyString("1000");
         afd.verifyString("00");
+        afd.verifyString("11");
 
     }
 }

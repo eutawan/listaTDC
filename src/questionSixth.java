@@ -27,6 +27,7 @@ public class questionSixth {
         afd.verifyString("0001");
         afd.verifyString("00");
         afd.verifyString("11");
+        afd.verifyString("01010");
 
     }
 }

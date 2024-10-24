@@ -37,5 +37,6 @@ public class questionEighth {
         afd.verifyString("11");
         afd.verifyString("00");
         afd.verifyString("1010");
+        afd.verifyString("1001");
     }
 }
