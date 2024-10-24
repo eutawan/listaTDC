@@ -2,10 +2,10 @@ package models;
 
 import java.util.*;
 
-public class noDeterministic extends FinityAutomate{
+public class Nondeterministic extends FinityAutomate{
     private final Map<State, Map<Character, Set<State>>> transactionFunction;
 
-    public noDeterministic(Set<State> states, Set<Character> alphabet, State initState, Set<State> finalStates){
+    public Nondeterministic(Set<State> states, Set<Character> alphabet, State initState, Set<State> finalStates){
         super(states, alphabet, initState, finalStates);
         this.transactionFunction = new HashMap<>();
 

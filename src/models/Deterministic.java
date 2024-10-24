@@ -58,7 +58,7 @@ public class Deterministic extends FinityAutomate{
         }
     }
 
-    public static Deterministic transformAfdToAfnd(noDeterministic afnd) {
+    public static Deterministic transformAfdToAfnd(Nondeterministic afnd) {
         Set<Character> alphabet = afnd.alphabet;
         State initialState = afnd.initState;
 
